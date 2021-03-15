@@ -1,0 +1,9 @@
+<%- include('partials/headerDetails') -%>
+
+  <form action="/showDetails" method="POST">
+    <label>Enter user for whom you want to search for: </label>
+    <input type="text" name="username" placeholder="User Name">
+    <button type="submit" name="button">Get Details</button>
+  </form>
+
+<%- include('partials/footer') -%>

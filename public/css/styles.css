@@ -1,0 +1,95 @@
+.details {
+  display:block;
+  margin:auto;
+}
+h1,h2,h3,h4,h5,h6 {
+   text-align: center;
+   font-weight: bolder;
+   color: purple;
+   font-family: 'Montserrat', sans-serif;
+}
+label {
+    display: inline-block;
+    text-align: right;
+    font-size: 2rem;
+}
+input {
+  display:block;
+  width:16rem;
+  height:2rem;
+  margin:auto;
+}
+/* label {
+  display: inline-block;
+  width: 140px;
+  text-align: right;
+}​ */
+.name {
+  color: #048219;
+  font-weight:bold;
+  font-size:2rem;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+.email {
+  color: #045e82;
+  font-weight:bold;
+  font-size:2rem;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+.password {
+  color: #2e0482;
+  font-weight:bold;
+  font-size:2rem;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+.phone {
+  color: #9e0b21;
+  font-weight:bold;
+  font-size:2rem;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+.signup-submit {
+  display:block;
+  margin:auto;
+  margin-top:5rem;
+}
+/* .home-but {
+  margin-left:5rem;
+  display:inline;
+} */
+#outer
+{
+    width:100%;
+    text-align: center;
+}
+.inner
+{
+    display: inline-block;
+    margin:4rem;
+}
+.title {
+  margin-top:12rem;
+  border:2px solid yellow;
+  border-style:solid;
+  border-radius: 10%;
+  border-color: #c98506;
+  border-width: thick;
+  width:60rem;
+  margin-left:20%;
+}
+.title:hover {
+  border-color: #4db862;
+  border-radius: 20%;
+}
+.success {
+  font-weight:bolder;
+  color:purple;
+  font-size: 3rem;
+}
+p{
+  text-align: center;
+}

@@ -1,0 +1,15 @@
+<%- include('partials/header') -%>
+    <form action="/signin" method="POST">
+      <table>
+        <tr>
+          <label>Email Address: </label>
+          <input class="email" type="email" name="email" placeholder="Email Address">
+        </tr>
+        <tr>
+          <label>Password: </label>
+          <input class="password" type="password" name="password" placeholder="Password">
+        </tr>
+      </table>
+      <button class="btn btn-primary signup-submit" type="submit" name="button">Submit</button>
+    </form>
+<%- include('partials/footer') -%>

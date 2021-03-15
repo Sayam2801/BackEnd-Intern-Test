@@ -1,0 +1,23 @@
+<%- include('partials/header') -%>
+    <form action="/signup" method="POST">
+      <table>
+        <tr>
+          <label >Name:</label>
+          <input class="name" type="text" name="name" placeholder="Name">
+        </tr>
+        <tr>
+          <label>Email address:</label>
+          <input class="email" type="email" name="email" placeholder="Email address">
+        </tr>
+        <tr>
+          <label>Phone Number:</label>
+          <input class="phone" type="tel" name="phone" placeholder="Phone Number">
+        </tr>
+        <tr>
+          <label>Password:</label>
+          <input class="password" type="password" name="password" placeholder="Password">
+        </tr>
+      </table>
+      <button class="btn btn-primary signup-submit" type="submit" name="button">Submit</button>
+    </form>
+<%- include('partials/footer') -%>
